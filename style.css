@@ -1,0 +1,117 @@
+body {
+    background-image: linear-gradient(red, yellow, green);
+}
+
+.intro {
+    background-image: url("https://blog.goway.com/globetrotting/wp-content/uploads/2016/05/Table-Mountain-at-Sunset-Cape-Town-South-Africa_423008806.jpg");
+    border: 0.1em solid;
+    color: rgb(115, 170, 152);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+
+}
+
+h1 {text-align: center;}
+.myImg {
+    margin: auto;
+    width: 30%;
+    /* border: 3px solid green; */
+    /* padding: 20px; */
+}
+.City {
+    background-image: url("https://thumbs.dreamstime.com/b/statue-liberty-cityscape-manhattan-night-new-york-city-usa-102478977.jpg");
+    border: 0.1em solid;
+    color: rgb(115, 170, 152);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    display : flex;
+
+}
+.table {
+    background-image: linear-gradient(green, yellow, red);
+    border: 0.1 solid;
+    text-align: center;
+}
+.Favourite_Subject1 {
+    border: 0.1em solid;
+    padding: 1em;
+    margin: 1em;
+}
+.Favourite_Subject2 {
+    border: 0.1em solid;
+    padding: 1em;
+    margin: 1em;
+}
+.Favourite_Subject3 {
+    border: 0.1em solid;
+    padding: 1em;
+    margin: 1em;
+}
+.place1 {
+    background-image: url("https://www.sa-venues.com/visit/dorealgrande/02.jpg");
+    border: 0.1em solid;
+    color: rgb(115, 170, 152);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.place2 {
+    background-image: url("pics20220516_110618.jpeg");
+    border: 0.1em solid;
+    color: rgb(115, 170, 152);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.place3 {
+    background-image: url("https://www.sa-venues.com/visit/dorealgrande/02.jpg");
+    border: 0.1em solid;
+    color: rgb(115, 170, 152);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+}
+
+
+
+@media (min-width: 768px) {
+    body {
+        background-image: conic-gradient(red, yellow, blue)
+    }
+ .myIntro {
+ display : flex;
+ align-items: center;
+}
+ .myCity {
+    display : flex;
+    align-items: center;
+   }
+ .table {
+ display : flex;
+}
+.Favourite_Subjects {
+    display : flex;
+   }
+
+.Historical_Places {
+    display: flex;
+}
+}
+.place1 {
+    text-align: center;
+}
+
+
+
+
